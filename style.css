@@ -1,0 +1,23 @@
+body{
+    background-color: black;
+}
+
+.my-name{
+    font-size: 100px;
+    line-height: 0px;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: movement 20s linear infinite;
+} 
+
+@keyframes movement{
+    100%{
+        background-position: 3000px 0;
+    }
+}
